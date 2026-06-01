@@ -1,26 +1,33 @@
 # PRODIGY_GA_TASK02 - Text to Image Generator using Stable Diffusion
 
 ## 📌 Project Overview
-This project generates images from text prompts using a pre-trained Stable Diffusion model.
 
-Users can enter a text description, and the model creates a corresponding AI-generated image.
+This project uses a pre-trained Stable Diffusion model to generate images from text prompts.
+
+Users can enter a text description, and the model generates a corresponding AI-created image using Generative AI techniques.
+
+This project was developed as part of the Prodigy Infotech Generative AI Internship.
 
 ---
 
 ## 🚀 Features
+
 - Text-to-image generation
-- Stable Diffusion pre-trained model
+- Uses pre-trained Stable Diffusion model
 - User prompt based image creation
 - AI-generated image outputs
 - Google Colab GPU support
+- Output image saving
 
 ---
 
 ## 🛠️ Technologies Used
+
 - Python
 - PyTorch
 - Hugging Face Diffusers
 - Transformers
+- Stable Diffusion
 - Google Colab
 
 ---
@@ -30,47 +37,92 @@ Users can enter a text description, and the model creates a corresponding AI-gen
 ```text
 PRODIGY_GA_TASK02/
 │
+├── README.md
 ├── app.py
 ├── requirements.txt
-├── README.md
 ├── PRODIGY_GA_02.ipynb
+│
 ├── outputs/
+│   └── generated_images
+│
 └── screenshots/
+    └── project_screenshots
 ```
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Use
 
-### Method 1: Google Colab (Recommended)
+### Method 1: Open Directly in Google Colab (Recommended)
 
-1. Download `PRODIGY_GA_02.ipynb`
-2. Open Google Colab
-3. Upload the notebook
-4. Enable GPU:
-   Runtime → Change Runtime Type → GPU
-5. Run all cells
-6. Enter a text prompt
-7. Generated image will be displayed and saved
+1. Open Google Colab.
+2. Click **File → Open Notebook**.
+3. Select the **GitHub** tab.
+4. Search for:
+
+```text
+tanishaa109/PRODIGY_GA_TASK02
+```
+
+5. Open:
+
+```text
+PRODIGY_GA_02.ipynb
+```
+
+6. Enable GPU:
+
+```text
+Runtime → Change Runtime Type → GPU
+```
+
+7. Run all cells.
+
+8. Enter a prompt such as:
+
+```text
+a futuristic city at night
+```
+
+9. The model will generate and display an image.
 
 ---
 
-### Method 2: Local System
+### Method 2: Download Notebook and Run in Colab
+
+1. Open `PRODIGY_GA_02.ipynb` from the repository.
+2. Download the notebook.
+3. Open Google Colab.
+4. Upload the notebook.
+5. Enable GPU.
+6. Run all cells.
+7. Enter your desired text prompt.
+
+---
+
+### Method 3: Run Locally (Optional)
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Run:
+
+```bash
 python app.py
 ```
 
-Note: Stable Diffusion is resource intensive. Google Colab with GPU is recommended.
+Note: Stable Diffusion is resource intensive. Google Colab with GPU is recommended for best performance.
 
 ---
 
-## 🖼️ Sample Prompts
+## 🖼️ Example Prompts
 
 - a futuristic city at night
 - a cute panda eating pizza
-- an astronaut riding a horse
+- an astronaut riding a horse on the moon
 - a cyberpunk street in Tokyo
 - a royal tiger sitting on a golden throne
 
@@ -78,28 +130,34 @@ Note: Stable Diffusion is resource intensive. Google Colab with GPU is recommend
 
 ## 📸 Outputs
 
-Generated images are stored in the `outputs/` folder.
+Generated images are available in the `outputs` folder.
 
-Screenshots of model loading, prompt input, and generated outputs are available in the `screenshots/` folder.
-
----
-
-## ⚠️ Important Note
-
-GitHub may occasionally fail to render large Jupyter notebooks in preview mode.
-
-If the notebook preview does not load:
-
-1. Download the notebook file
-2. Open it directly in Google Colab
-3. Run the notebook normally
-
-The notebook itself is not affected.
+Project execution screenshots are available in the `screenshots` folder.
 
 ---
 
-## 👨‍💻 Internship Task
+## ⚠️ GitHub Notebook Preview
 
-Prodigy Infotech - Generative AI Internship
+Sometimes GitHub may fail to render large Jupyter notebooks and display a notebook preview error.
 
-Task 02: Text-to-Image Generation using Stable Diffusion
+If this happens:
+
+1. Open the notebook directly in Google Colab.
+2. Or download the notebook and upload it to Colab.
+3. Run the notebook normally.
+
+The notebook file itself remains fully functional.
+
+---
+
+## 🎯 Internship Task
+
+**Prodigy Infotech – Generative AI Internship**
+
+**Task 02:** Generate images from text prompts using a pre-trained generative model (Stable Diffusion).
+
+---
+
+## 👨‍💻 Author
+
+Tanisha Sharma
