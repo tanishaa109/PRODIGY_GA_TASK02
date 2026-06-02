@@ -12,23 +12,24 @@ This project was developed as part of the Prodigy Infotech Generative AI Interns
 
 ## 🚀 Features
 
-- Text-to-image generation
-- Uses pre-trained Stable Diffusion model
-- User prompt based image creation
-- AI-generated image outputs
-- Google Colab GPU support
-- Output image saving
+* Text-to-image generation
+* Uses pre-trained Stable Diffusion model
+* User prompt based image creation
+* AI-generated image outputs
+* Google Colab GPU support
+* Output image saving
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python
-- PyTorch
-- Hugging Face Diffusers
-- Transformers
-- Stable Diffusion
-- Google Colab
+* Python
+* PyTorch
+* Hugging Face Diffusers
+* Transformers
+* Stable Diffusion
+* Google Colab
+* GitHub
 
 ---
 
@@ -43,10 +44,13 @@ PRODIGY_GA_TASK02/
 ├── PRODIGY_GA_02.ipynb
 │
 ├── outputs/
-│   └── generated_images
+│   ├── generated_image_1.png
+│   └── generated_image_2.png
 │
 └── screenshots/
-    └── project_screenshots
+    ├── 01_model_loaded.png
+    ├── 02_prompt_input.png
+    └── 03_generated_image.png
 ```
 
 ---
@@ -58,12 +62,7 @@ PRODIGY_GA_TASK02/
 1. Open Google Colab.
 2. Click **File → Open Notebook**.
 3. Select the **GitHub** tab.
-4. Search for:
-
-```text
-tanishaa109/PRODIGY_GA_TASK02
-```
-
+4. Search for your GitHub repository.
 5. Open:
 
 ```text
@@ -77,13 +76,7 @@ Runtime → Change Runtime Type → GPU
 ```
 
 7. Run all cells.
-
-8. Enter a prompt such as:
-
-```text
-a futuristic city at night
-```
-
+8. Enter a text prompt.
 9. The model will generate and display an image.
 
 ---
@@ -120,19 +113,29 @@ Note: Stable Diffusion is resource intensive. Google Colab with GPU is recommend
 
 ## 🖼️ Example Prompts
 
-- a futuristic city at night
-- a cute panda eating pizza
-- an astronaut riding a horse on the moon
-- a cyberpunk street in Tokyo
-- a royal tiger sitting on a golden throne
+* a futuristic city at night
+* a cute panda eating pizza
+* an astronaut riding a horse on the moon
+* a cyberpunk street in Tokyo
+* a royal tiger sitting on a golden throne
 
 ---
 
 ## 📸 Outputs
 
-Generated images are available in the `outputs` folder.
+Generated sample images are available in the `outputs` folder.
 
-Project execution screenshots are available in the `screenshots` folder.
+Project execution screenshots are available in the `screenshots` folder:
+
+* 01_model_loaded.png
+* 02_prompt_input.png
+* 03_generated_image.png
+
+These screenshots demonstrate:
+
+* Successful model loading
+* User prompt input
+* AI-generated image generation
 
 ---
 
@@ -160,4 +163,4 @@ The notebook file itself remains fully functional.
 
 ## 👨‍💻 Author
 
-Tanisha Sharma
+**Tanisha Sharma**
